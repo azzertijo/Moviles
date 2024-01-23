@@ -1,5 +1,7 @@
+package Tareas
+
 fun String?.esVaciaONula(): Boolean {
-    return this == null || this.isEmpty()
+    return this.isNullOrEmpty()
 }
 
 fun main(args: Array<String>){

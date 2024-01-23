@@ -1,3 +1,5 @@
+package Tareas
+
 fun List<Int>.sum(): Int{
     var result = 0
     for(i in this){

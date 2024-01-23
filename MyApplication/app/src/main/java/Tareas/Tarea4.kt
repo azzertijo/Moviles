@@ -1,3 +1,5 @@
+package Tareas
+
 fun String.esFina(): Boolean{
     val condicion1 = !Regex("bu|ba|be").containsMatchIn(this)
     val condicion2 = Regex("[aeiou]").findAll(this).count() >= 3
